@@ -17,6 +17,8 @@ function getResult() {
     var chestrt = parseFloat(document.getElementById('CHESTRT').value);
     var result = calcRisk(ef, ant, chestrt);
     var percent = (result * 100).toFixed(2) + "%";
-    var resultDiv = document.getElementById('results');
-    resultDiv.innerHTML = "<h2>Result</h2><p>You have a " + percent + " risk of getting cardiomyopathy</p>";
+    var resultSpan = document.getElementById('results');
+    resultSpan.innerHTML = percent;
+    var resultDiv = document.getElementById('resultDiv');
+    resultDiv.className = "show";
 }
