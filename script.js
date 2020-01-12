@@ -1,7 +1,4 @@
-function updateTextInput(val) {
-    var result = val + "%";
-    document.getElementById('rangeValue').value=result; 
-}
+
 
 function calcRisk(ef, ant, chestrt) {
     var c1 = -0.227136985;
