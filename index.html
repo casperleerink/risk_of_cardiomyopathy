@@ -21,9 +21,8 @@
             <h1>10-year risk for cardiomyopathy</h1>
             <form>
                 <div class="form-group">
-                  <label for="EF">Ejection fraction (40% - 70%)</label>
-                  <input readonly class="form-control-plaintext" type="text" id="rangeValue" value="">
-                  <input type="range" class="form-control" id="EF" step="0.01" min="0.40" max="0.70" onchange="updateTextInput(this.value);">
+                    <label for="EF">Ejection fraction (40% - 70%)</label>
+                    <input type="number" class="form-control" id="EF" min="40" max="70">
                 </div>
                 <div class="form-group">
                     <label for="ANT">Anthracycline dosis (0 - 600 mg/m2)</label>

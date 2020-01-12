@@ -1,5 +1,5 @@
 function updateTextInput(val) {
-    var result = (val * 100).toFixed(0) + "%";
+    var result = val + "%";
     document.getElementById('rangeValue').value=result; 
 }
 
