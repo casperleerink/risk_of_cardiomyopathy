@@ -4,14 +4,14 @@ Je kan de veranderingen die je maakt direct in de browser zien door deze file te
 <html>
 <head>
     <!-- De title zie je in de tab van je browser, wordt ook gebruikt door google voor het zoeken van je website. -->
-    <title>Risk of Cardiomyopathy</title>
+    <title>Cardiomyopathy risk calculator in childhood cancer survivors</title>
     <!-- De descriptie hier kan je ook veranderen, dit is alleen te zien door nerds en google -->
     <meta 
     name="description" 
-    content="Calculator voor het inschatten van het risico op hartfalen in overlevenden van kinderkanker."
+    content="Calculator for cardiomyopathy risk prediction in childhood cancer survivors treated with anthracyclines and/or chest-directed radiotherapy."
     >
     <!-- zelfde voor de keywords -->
-    <meta name="keywords" content="Hartfalen, Kinderkanker, Jan Leerink">
+    <meta name="keywords" content="Heart failure, Cancer survivors, Jan Leerink">
     <meta name="author" content="Jan Leerink">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,15 +28,15 @@ Je kan de veranderingen die je maakt direct in de browser zien door deze file te
             <form>
                 <div class="form-group">
                     <!-- Je kan hier de labels veranderen als je dat wil -->
-                    <label for="EF">Ejection fraction (40% - 70%)</label>
+                    <label for="EF">Ejection fraction (%) at the first follow-up echocardiogram >5 years after cancer diagnosis</label>
                     <input type="number" class="form-control" id="EF" min="40" max="70">
                 </div>
                 <div class="form-group">
-                    <label for="ANT">Anthracycline dosis (0 - 600 mg/m2)</label>
+                    <label for="ANT">Cumulative anthracycline dose </label>
                     <input type="number" class="form-control" id="ANT" min="0" max="600">
                 </div>
                 <div class="form-group">
-                    <label for="CHESTRT">Radio therapy dosis (0 - 50 Gray)</label>
+                    <label for="CHESTRT">Cumulative chest-directed radiotherapy dose (0 - 50 Gray)</label>
                     <input type="number" class="form-control" id="CHESTRT" min="0" max="50">
                 </div>
                 <div class="form-group">
