@@ -27,14 +27,18 @@ Je kan de veranderingen die je maakt direct in de browser zien door deze file te
             <h1>Risk calculator for cardiomyopathy development within 10 years in childhood cancer survivors</h1>
               
             <!-- Hier komt de uitleg, h1 is de titel en p is de paragraaf. Je kan ook meer paragraven toevoegen -->
-            <p>This risk calculator predicts the risk for cardiomyopathy in childhood cancer survivors 
+            <p>This risk calculator predicts the 10-year risk for cardiomyopathy in childhood cancer survivors 
                 with an available left ventricular ejection fraction measurement >5 years after cancer diagnosis 
-                and who were previously treated with anthracyclines and/or chest directed radiotherapy.</p>
+                and who were previously treated with anthracyclines and/or chest directed radiotherapy. 
+                Cardiomyopathy was defined as a left ventricular ejection fraction <40%, 
+                the treshold for pharmacological heart failure treatment initiation according to 
+                the European Society of Cardiology heart failure guideline.
+                The risk calculator is developed for adult >5-year childhood cancer survivors without heart failure or a left ventricular ejection fraction <40%.</p>
        
             <form>
                 <div class="form-group">
                     <!-- Je kan hier de labels veranderen als je dat wil -->
-                    <label for="EF">Ejection fraction (%) at the first follow-up echocardiogram >5 years after cancer diagnosis</label>
+                    <label for="EF">Left ventricular ejection fraction (%) at the first follow-up echocardiogram >5 years after cancer diagnosis</label>
                     <input type="number" class="form-control" id="EF" min="40" max="70">
                 </div>
                 <div class="form-group">
