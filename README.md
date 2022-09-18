@@ -1,4 +1,4 @@
-# risk_of_cardiomyopathy
+# Cardiomyopathy risk calculator in childhood cancer survivors
  <p>This calculator can be used in childhood cancer survivors to estimate the probability of left ventricular dysfunction 
                 with ejection fraction <40% (LVD40) within 10 years from a surveillance echocardiogram obtained at >5 years after cancer diagnosis.   
                 The outcome LVD40 was defined as a left ventricular ejection fraction <40% during follow-up, 
